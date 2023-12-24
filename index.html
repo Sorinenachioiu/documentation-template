@@ -643,6 +643,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#how-to-update-the-docs-when-you-modify-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      ! How to update the docs when you modify them
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1527,6 +1536,14 @@
 <p>There is a placeholder (<code>docs/faqs.md</code>) for including any frequently asked questions about the project. Please update this document whenever you come across a frequently asked question.</p>
 <h3 id="glossary">Glossary<a class="headerlink" href="#glossary" title="Permanent link">&para;</a></h3>
 <p>There is a placeholder (<code>docs/glossary.md</code>) for capturing terms that are used in the documentation and with relation to the project. Please update the glossary to include relevant terms and definitions.</p>
+<h3 id="how-to-update-the-docs-when-you-modify-them">! How to update the docs when you modify them<a class="headerlink" href="#how-to-update-the-docs-when-you-modify-them" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Make Your Changes: Update or add files in your project locally.</li>
+<li>Test Locally: Run <code>mkdocs serve</code> to test the changes locally and ensure everything is working correctly.</li>
+<li>Build the Site: Once you're satisfied with the changes, run <code>mkdocs build</code> to build the static site files.</li>
+<li>Deploy: Use <code>mkdocs gh-deploy</code> to deploy the changes. This command will build the site, commit the changes to the <code>gh-pages branch</code>, and push the branch to GitHub.</li>
+<li>GitHub Pages Update: GitHub Pages will <code>automatically update</code> the live site with the contents of the gh-pages branch after the push.</li>
+</ul>
 
 
 
